@@ -1,0 +1,13 @@
+{
+  "name": "test-semantic-release",
+  "devDependencies": {
+    "semantic-release": "^24.1.0"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}
